@@ -1,2 +1,4 @@
-console.log("Hello!");
-console.log(document.getElementById('vielas-poga'));
+const vielasPoga = document.getElementById('vielas-poga');
+vielasPoga.addEventListener('click',function(){
+    alert("Piespiesta vielas poga");
+})

@@ -1,0 +1,105 @@
+.klus-home {
+    height: 100vh;    
+}
+
+h1, h2, h3, p, button {
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.klus-fp-white{
+    font-family: Poppins;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.fp-blue-text {
+    color: #0084F8;
+    
+}
+
+.klus-white-line {
+    border-top: 2px solid white;
+    width: 40%;
+}
+
+.fp-logo {
+    padding: 10px;
+    max-width: 75%
+}
+
+
+
+/* FYI centrēt visu iekš DIV  - margin: 0 auto; */
+
+.fp-blue-text-pubdb {
+    font-family: Poppins;
+    color: #0084F8;
+    margin: 40px 0px;
+}
+}
+
+.fp-text{
+    margin-bottom: 50px;
+}
+
+.klus-home-left-col {
+    background: linear-gradient(180deg, #0084F8 0%, #00C6FF 100%);
+    padding: 50px;
+}
+
+.klus-home-right-col {
+    padding: 50px;
+    background: #E5E5E5;
+}
+
+.report-error {
+    position: absolute;
+    bottom: 2vw; /* 2% skata platums */
+    right: 2vh; /* 2% skata augstums */
+
+}
+
+.search-left {
+    float:left;
+}
+
+.buttons {
+    float:left;
+
+}
+
+.pubdb-table {
+    background: #001B36;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-ID {
+    font-weight:lighter;
+    color: slategray;
+}
+
+.poga-rounded {
+    border-radius: 20px;
+}
+
+.my-dark {
+    background: #001B36;
+    color: white;
+}
+
+.comments-width {
+    width: 440px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.left-text {
+    text-align: left;
+}

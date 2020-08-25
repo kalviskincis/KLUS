@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ķīmijas laboratorijas uzskaites sistēma</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+    </style>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/bootstrap.min.css'>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-5">
+                <a href="../index.html"><p>&ShortLeftArrow; Atpakaļ uz sākumlapu</p></a>
+                <h3 class="fp-blue-text-pubdb">Publiskā datubāze</h3>
+                <p>Šajā datubāzē Tu vari apskatīt pieejamās vielas un aprīkojumu.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-5">
+                <form class="form-inline">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <input class="form-control w-100" type="text" placeholder="Search" aria-label="Search">
+                </form>
+
+            </div>
+
+            <div class="col-sm-7">
+                <button type="button" class="btn btn-primary poga-rounded" >Rādīt visu</button>
+                <button type="button" class="btn btn-outline-primary poga-rounded">Rādīt vielas</button>
+                <button type="button" class="btn btn-outline-primary poga-rounded">Rādīt aprīkojumu</button>
+            </div>
+
+        </div>
+
+        <div>
+            <hr>
+        </div>
+
+
+        <table class="table">
+            <thead class="my-dark">
+                <tr>
+                    <th scope="col" class="centered-text">ID</th>
+                    <th scope="col">Nosaukums</th>
+                    <th scope="col">Tips</th>
+                    <th scope="col">Apakštips</th>
+                    <th scope="col">Skaits</th>
+                    <th scope="col">Svars</th>
+                    <th scope="col" class="comments-width">Komentāri</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" class="item-ID">KL1042724</th>
+                    <td class="item-name">Katalizators</td>
+                    <td>Aprīkojums</td>
+                    <td>Trauks</td>
+                    <td>23</td>
+                    <td></td>
+                    <td>Daži komentāri</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="item-ID">KL1042723</th>
+                    <td class="item-name">Birete</td>
+                    <td>Aprīkojums</td>
+                    <td>Trauks</td>
+                    <td>20</td>
+                    <td></td>
+                    <td>Daži komentāri</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="item-ID">KL1042742</th>
+                    <td class="item-name">HCl</td>
+                    <td>Viela</td>
+                    <td>Skābe</td>
+                    <td>19</td>
+                    <td>40</td>
+                    <td>Daži komentāri</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <div class="report-error">
+            <button type="button" class="btn btn-danger">Ziņot par kļūdu</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

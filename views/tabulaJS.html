@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/tabula.css'>
+</head>
+
+<div class="top-section">
+    <div class="button-back-container">
+        <a href="" class="button-back">
+            <span class="button-back__icon"></span>
+            <span class="button-back__text"><a href="../index.html">&ShortLeftArrow; Atpakaļ uz sākumlapu</a></span>
+        </a>
+    </div>
+    <h1 class="pdb-heading">Publiskā datubāze</h1>
+    <p class="pdb-description">Šajā datubāzē Tu vari apskatīt pieejamās vielas un aprīkojumu</p>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="search">
+                <span class="search__icon"></span>
+                <input type="text" class="form-control search__input" placeholder="Search">
+            </div>
+        </div>
+        <div class="col-md-8">
+            <button type="button" class="filter-button" id="viss-poga">
+                Rādīt visu
+            </button>
+            <button type="button" class="filter-button" id="vielas-poga">
+                Rādīt vielas
+            </button>
+            <button type="button" class="filter-button" id="aprikojums-poga">
+                Rādīt aprīkojumu
+            </button>
+        </div>
+    </div>
+</div>
+<div class="bottom-section">
+    <table class="public-db-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nosaukums</th>
+                <th>Tips</th>
+                <th>Apakštips</th>
+                <th>Skaits</th>
+                <th>Svars</th>
+                <th>Komentāri</th>
+            </tr>
+        </thead>
+        <tbody id="dati">
+
+        <tbody>
+    </table>
+</div>
+<button type="button" class="error-button">Ziņot par kļūdu</button>
+<!-- Mūsu skripti -->
+<script src='../js/main.js'></script>
+</body>
+</html>
